@@ -1,7 +1,8 @@
 /*GENERAL*/
 
 .links a {
-    color: 000000;
+    color: #000000;
+    text-decoration: none;
 }
 
 a:visited {
@@ -13,9 +14,15 @@ a:visited {
     color: #ffffff;
 }
     
-.home-menu a{
+.home-menu a {
 text-decoration: none;
 color: #ffffff;
+}
+    
+.links2 a {
+    color: #000000;
+    text-decoration: none;
+    
 }
 
 /*HOME*/
@@ -41,7 +48,7 @@ li {
 }
 
 .home-menu {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     color: #ffffff;
     text-decoration: none;
@@ -53,7 +60,7 @@ li {
 }
 
 .menu {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 22px;
     color: #000000;
     text-decoration: none;
@@ -79,12 +86,24 @@ li {
 }
 
 #yt {
-    position: relative;
-    left: 0%;
-    margin: 100px 0px 0px 0px;
-
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 76%;
+    min-height: 100%;
+    z-index: 0;
 }
 
+.more{
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+    position: fixed;
+    left: 0;
+    margin: 453px 0px 0px 50px;
+    
+}
 
 
 /*CONTACT-PAGE*/
@@ -92,15 +111,16 @@ li {
 .bio2 {
     width: 300px;
     position: relative;
-    left: 53%;
-    margin: 50px 0px 0px 0px;
+    left: 23%;
+    bottom: 20%;
+    margin: 1px 0px 0px 0px;
     font-size: 20px;
 }
 
 .links {
     font-size: 20px;
     position: relative;
-    left: 50%;
+    left: 20%;
     margin: 40px 0px 0px 0px;
     font-weight: 500;
 }
@@ -113,10 +133,17 @@ li {
     left: 23%;
     margin: -180px 0px 0px 0px;
     font-size: 20px;
-
 }
 
-@media only screen and (max-width: 600px) {
+.links2{
+    font-size: 20px;
+    position: relative;
+    left: 20.3%;
+    margin: 40px 0px 0px 0px;
+    font-weight: 500;
+    }
+
+@media only screen and (max-width: 600px){
     #video {
         margin: 700px 0px 0px -800px;
         width: 3300px;
@@ -125,13 +152,6 @@ li {
         font-size: 100px;
     }
     
-#links2{
-    font-weight: 400;
-    font-size: 20px;
-    position: relative;
-    left: 23%;
-    margin: 40px 0px 0px 0px;
-    font-weight: 500;
-    }
+
 
 }
