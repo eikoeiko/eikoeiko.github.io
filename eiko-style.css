@@ -143,15 +143,21 @@ li {
     font-weight: 500;
     }
 
+.mobile-msg{
+    text-align: center;
+    font-size: 15px;
+    
+}
+
 @media only screen and (max-width: 600px){
-    #video {
-        margin: 700px 0px 0px -800px;
-        width: 3300px;
-    }
-    .menu {
-        font-size: 100px;
+    video{
+        display: none;
     }
     
+    @media only screen and (max-width: 600px){
+    mobile-msg{
+        display: block;
+      
 
+    }
 
-}
