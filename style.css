@@ -27,6 +27,10 @@ color: #ffffff;
 
 /*HOME*/
 
+body{
+     font-family: "Roboto Mono", sans-serif;
+}
+
 .body-mod {
     overflow: hidden;
 }
