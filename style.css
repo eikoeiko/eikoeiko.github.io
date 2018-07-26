@@ -1,0 +1,164 @@
+/*GENERAL*/
+
+.links a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000000;
+}
+
+.home-menu a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+    
+.home-menu a {
+text-decoration: none;
+color: #ffffff;
+}
+    
+.links2 a {
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+/*HOME*/
+
+.body-mod {
+    overflow: hidden;
+}
+
+#eiko {
+    width: auto;
+    height: 40px;
+    position: relative;
+    top: 0%;
+    left: -5%;
+    margin: 70px 0px 0px 100px;
+}
+
+
+li {
+    list-style: none;
+
+}
+
+.home-menu {
+     font-family: "Roboto Mono", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    top: 100%;
+    left: -7%;
+    margin: 10px 0px 0px 100px;
+
+}
+
+.menu {
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+    top: 100%;
+    left: -7.2%;
+    margin: 10px 0px 0px 100px;
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
+
+/*FILMS-PAGE*/
+
+#filmbody {
+    background-color: #ffffff;
+}
+
+#yt {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 76%;
+    min-height: 100%;
+    z-index: 0;
+}
+
+.more{
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+    position: fixed;
+    left: 0;
+    margin: 453px 0px 0px 50px;
+    
+}
+
+
+/*CONTACT-PAGE*/
+
+.bio2 {
+    width: 300px;
+    position: relative;
+    left: 23%;
+    bottom: 20%;
+    margin: 1px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.links {
+    font-size: 20px;
+    position: relative;
+    left: 20%;
+    margin: 40px 0px 0px 0px;
+    font-weight: 500;
+}
+
+/*PROJECTS-PAGE*/
+
+#bio1 {
+    width: 600px;
+    position: relative;
+    left: 23%;
+    margin: -180px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.links2{
+    font-size: 20px;
+    position: relative;
+    left: 20.3%;
+    margin: 40px 0px 0px 0px;
+    font-weight: 500;
+    }
+
+.mobile-msg{
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+@media only screen and (max-width: 600px){
+    video{
+        display: none;
+    }
+    
+    @media only screen and (max-width: 600px){
+    mobile-msg{
+        display: block;
+      
+
+    }
+
