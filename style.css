@@ -27,9 +27,6 @@ color: #ffffff;
 
 /*HOME*/
 
-body{
-     font-family: "Roboto Mono", sans-serif;
-}
 
 .body-mod {
     overflow: hidden;
@@ -133,6 +130,7 @@ li {
 /*PROJECTS-PAGE*/
 
 #bio1 {
+    font-family: "Roboto Mono", sans-serif;
     width: 600px;
     position: relative;
     left: 23%;
