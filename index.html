@@ -1,55 +1,86 @@
 <!DOCTYPE HTML>
-<head> 
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>EIKO</title>
-    <link type="text/css" href="style.css" rel=stylesheet>  
-    
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-       
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500" rel="stylesheet">  
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122918799-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-122918799-2');
-</script>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>eiko</title>
+    <link type="text/css" href="home.css" rel=stylesheet>
+
+    <link rel="shortcut icon" type="image/png" href="resources/favicon.ico" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:700|Roboto+Mono:300,400,400i,700" rel="stylesheet">
+
+    <!--  Google Analytics  -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122918799-2"></script>
+   
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-122918799-2');
+
+    </script>
+    <!-- /Google Analytics -->
 
 </head>
 
 
-<!------------------------------------------------------------------
+<body>
 
-     Want to build software with me? mail eiko.olykan@gmail.com
+    <!-- Video -->
 
-------------------------------------------------------------------->
-
-
-<body class=body-mod>
-    
     <video autoplay muted loop id="video">
-    <source src="swim.mp4" type="video/mp4"> 
-        media failed to load :(
+    <source src="resources/swim.mp4" type="video/mp4" alt=" media failed to load :("> 
+       
     </video>
     
-    <a href="index.html">
-        <img id=eiko src=eiko-wh.svg alt="image failed to load :(">
-    </a>
-    
-        <ul class="home-menu">
-        <li> <a href=projects-page.html> projects </a> </li>
-        <li> <a href=films-page.html> 
-        films </a> </li>
-        <li> <a href=contact-page.html> contact </a> </li>
-        </ul>   
-    
-    <div class=mobile-msg> eiko.co.nz is still under <br> development for mobile. <br> <br> it will be supported <br> in the near future. <br> <br> <br> :)
-    </div>
-    
-</body>
+    <!-- header -->
 
+    <a href="index.html">
+        <img class="eiko" src=resources/eiko-wh.svg alt="image failed to load :(">
+    </a>
+
+    <!-- Accordion Menu -->
+
+    <h1 class="accordion">work</h1>
+    <div class="panel">
+        <ul>
+            <li> <a href=web.html> web design </a> </li>
+            <li> <a href=logos.html> logos and brands </a> </li>
+            <li> <a href=video.html> video </a> </li>
+            <li> <a href=special.html> special projects </a> </li>
+        </ul>
+    </div>
+
+    <a href="contact.html" class=accordion> contact</a>
+    
+    <!--- Accordion Menu Script-->
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            
+                this.classList.toggle("active");
+                
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+
+    </script>
+
+
+
+</body>

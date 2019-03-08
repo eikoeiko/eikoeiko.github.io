@@ -1,0 +1,67 @@
+.eiko {
+    position: relative;
+    margin: 50px 0px 0px 40px;
+}
+
+
+.accordion {
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 22px;
+    font-weight: 700;
+    position: relative;
+    left: 3%;
+}
+
+.panel {
+    position: relative;
+    margin-bottom: 30px;
+    left: 3%;
+    display: none;
+    overflow: hidden;
+    z-index: 40;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a :hover{
+    text-decoration: none;
+    color: white;
+}
+
+a: visited{
+    text-decoration: none;
+    color: white;
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
+
+
+
+body {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 22px;
+    overflow: hidden;
+}
+

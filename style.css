@@ -1,166 +1,68 @@
-/*GENERAL*/
-
-a{
-text-decoration: none;
-color: #000000;
-}
-
-a:visited {
-    color: #000000;
-}
-
-.home-menu a:visited {
-    text-decoration: none;
-    color: #ffffff;
-}
-    
-.home-menu a {
-    text-decoration: none;
-    color: #ffffff;
-}
-    
-.links2 a {
-    color: #000000;
-    text-decoration: none;
-    
-}
-
-/*HOME*/
-
-body{
-     font-family: "Roboto Mono", sans-serif;
-}
-
-
-.body-mod {
-    overflow: hidden;
-}
-
-#eiko {
-    width: auto;
-    height: 40px;
+.eiko {
     position: relative;
-    margin: 70px 0px 0px 40px;
+    margin: 50px 0px 0px 40px;
 }
 
+body {
+    font-family: "Roboto Mono", sans-serif;
+    color: #434343;
+}
+
+.accordion {
+    color: #434343;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 22px;
+    font-weight: 700;
+    position: relative;
+    left: 3%;
+}
+
+.panel {
+    position: relative;
+    margin-bottom: 30px;
+    left: 3%;
+    display: none;
+    overflow: hidden;
+    z-index: 40;
+
+}
 
 li {
     list-style: none;
-
 }
 
-.home-menu {
-    font-family: "Roboto Mono", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #ffffff;
+a {
     text-decoration: none;
-    position: fixed;
-    margin: 10px 0px 0px 0px;
-
+    color: #434343;
 }
 
-.menu {
-    font-family: "Roboto Mono", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #000000;
-    text-decoration: none;
-    position: fixed;
-    margin: 10px 0px 0px 0px;
+.contactbox{
+    position: relative;
+    font-size: 18px;
+    text-align: left;
+    width: 700px;
+    padding-left: 600px;
 }
 
-#video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: 0;
+.info{
+    padding-top: 40px;
+    padding-left: 7px;
+    font-weight: 700;
 }
 
-/*FILMS-PAGE*/
-
-#filmbody {
-    background-color: #ffffff;
-}
-
-#yt {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 76%;
-    min-height: 100%;
-    z-index: 0;
-}
-
-.more{
+h1{
+    font-family: "roboto mono";
+    font-size: 18px;
     font-weight: 400;
-    font-size: 22px;
-    color: #000000;
-    text-decoration: none;
-    position: fixed;
-    left: 0;
-    margin: 453px 0px 0px 50px;
+    position: relative;
+    left: 50%;
+    
+    
     
 }
-
-
-/*CONTACT-PAGE*/
-
-.bio2 {
-    width: 300px;
-    position: relative;
-    left: 23%;
-    bottom: 20%;
-    margin: 1px 0px 0px 0px;
-    font-size: 20px;
-}
-
-.links {
-    font-size: 20px;
-    font-weight: 500;
-    position: relative;
-    left: 20%;
-    margin: 40px 0px 0px 0px;
-    
-}
-
-/*PROJECTS-PAGE*/
-
-#bio1 {
-    font-family: "Roboto Mono", sans-serif;
-    width: 600px;
-    position: relative;
-    left: 23%;
-    margin: -45px 0px 0px 0px;
-    font-size: 20px;
-}
-
-.links2{
-    font-size: 20px;
-    position: relative;
-    left: 20.3%;
-    margin: 40px 0px 0px 0px;
-    font-weight: 500;
-    }
-
-.mobile-msg{
-    text-align: center;
-    font-size: 15px;
-    display: none;
-    
-}
-
-@media only screen and (max-width: 600px){
-    video{
-        display: none;
-    }
-    
-    @media only screen and (max-width: 600px){
-    mobile-msg{
-        display: block;
-      
-
-    }
-
