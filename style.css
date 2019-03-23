@@ -64,5 +64,7 @@ h1{
     left: 50%;
     
     
-    
+    .rightNav2 #homeLnk:before {
+    content: url('/images/homeIcon.png');
+}
 }
