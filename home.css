@@ -1,3 +1,11 @@
+html {
+    background: url(resources/bg.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 body {
     font-family: "Roboto Mono", sans-serif;
@@ -45,23 +53,12 @@ a {
     color: white;
 }
 
-a :hover{
+a :hover {
     text-decoration: none;
     color: white;
 }
 
-a: visited{
+a: visited {
     text-decoration: none;
     color: white;
 }
-
-#video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: 0;
-}
-
-
