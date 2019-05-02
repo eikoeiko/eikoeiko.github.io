@@ -9,7 +9,7 @@ html {
 
 body{
     font-family: "Roboto Mono", sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     overflow: hidden;
     margin: 0px;
 }
@@ -17,7 +17,7 @@ body{
 
 .eiko {
     position: relative;
-    width: 150px;
+    width: 130px;
     padding-top: 100px;
     padding-left: 30px;
 }
