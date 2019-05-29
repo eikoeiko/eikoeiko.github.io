@@ -2,7 +2,7 @@
 body {
     font-family: "Roboto Mono", sans-serif;
     color: #434343;
-    font-size: 28px;
+    font-size: 20px;
     letter-spacing: 2px;
     overflow: hidden;
 }
@@ -24,9 +24,9 @@ body {
     border: none;
     outline: none;
     transition: 0.4s;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 700;
-    left: 6%;
+    left: 8%;
 }
 
 .panel {
@@ -36,6 +36,7 @@ body {
     display: none;
     overflow: hidden;
     z-index: 40;
+    font-size: 18px;
 
 }
 
@@ -54,6 +55,7 @@ a {
     text-align: left;
     width: 700px;
     padding-left: 600px;
+    z-index: 2;
 }
 
 .info{
@@ -69,8 +71,5 @@ h1{
     position: relative;
     left: 50%;
     
+}
     
-    .rightNav2 #homeLnk:before {
-    content: url('/images/homeIcon.png');
-}
-}

@@ -10,20 +10,20 @@ html {
 
 body {
     font-family: "Roboto Mono", sans-serif;
-    font-size: 22px;
+    font-size: 15px;
     overflow: hidden;
     margin: 0px;
-    height: 100%;
+    
 }
 
 
 
 .eiko {
     position: relative;
-    width: 120px;
+    width: 130px;
     padding-top: 100px;
     padding-left: 30px;
-    z-index: 100;
+   
 }
 
 
@@ -40,7 +40,7 @@ body {
     font-weight: 700;
     position: relative;
     left: 3%;
-    z-index: 99;
+
 }
 
 .panel {
@@ -50,7 +50,7 @@ body {
     display: none;
     overflow: hidden;
     z-index: 40;
-    z-index: 98;
+
     
 
 }
