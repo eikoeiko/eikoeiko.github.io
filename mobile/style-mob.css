@@ -1,0 +1,62 @@
+
+body {
+    font-family: "Roboto Mono", sans-serif;
+    color: #434343;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
+.eiko {
+    position: relative;
+    margin: 210px 0px 0px 150px;
+    width: 220px;
+}
+
+
+.accordion {
+    position: relative;
+    color: #434343;
+    cursor: pointer;    
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px 0px 0px 138px;
+}
+
+.panel {
+    position: relative;
+    margin: 0px 0px 30px 50px;
+    left: 7%;
+    display: none;
+    overflow: hidden;
+    z-index: 40;
+    font-size: 18px;
+}
+
+li{
+    list-style: none;
+}
+
+
+ a {
+    text-decoration: none;
+    color: #434343;
+}
+
+.contactbox{
+    position: relative;
+    margin: 0px 0px 0px 1000px;
+}
+
+
+
+.contactbox li {
+    list-style: none;
+    padding: 6px;
+}
+
