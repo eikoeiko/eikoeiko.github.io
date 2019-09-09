@@ -60,3 +60,11 @@ li{
     padding: 6px;
 }
 
+video {
+    position: relative;
+    text-align: center;
+    padding: 0px, 10px, 10px, 10px;
+    margin: 0px, 0px, 0px, 0px;
+    left: 40%;
+    top: -90%;
+}
