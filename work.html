@@ -7,7 +7,7 @@
     <title>eiko</title>
     <link type="text/css" href="style.css" rel=stylesheet>
 
-    <link rel="shortcut icon" type="image/png" href="resources/favicon.ico" />
+    <link rel="shortcut icon" type="image/png" href="resources/favicon.ico"/>
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:700|Roboto+Mono:300,400,400i,700" rel="stylesheet">
 
@@ -35,47 +35,17 @@
 <body>
     
 <div class="menu">
-    
-       <a href="index.html">
-        <img class="eiko" src=resources/logo.png alt="image failed to load :(">
-    </a>
 
-    <h1 class="accordion">work</h1>
-    <div class="panel">
-        <ul>
-            <li> <a href=art.html> work </a> </li>
-            <li> <a href=work.html> commercial work</a> </li>
-            <li> <a href=cv.html> cv </a> </li>
-        </ul>
-    </div>
-
-    <a href="contact.html" class=accordion> contact</a>
+            <li> <a href=art.html> Work </a> </li>
+            <li> <a href=work.html> Commercial Work</a> </li>
+            <li> <a href=cv.html> CV </a> </li>
+             <li> <a href=contact.html> Contact </a> </li>
+      
+          <p1 class=box> 
+       Coming soon. 
+    </p1>
     
     </div>
-        
+
     
-    <!--- Accordion Menu Script-->
-
-    <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-            
-                this.classList.toggle("active");
-                
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                    panel.style.display = "none";
-                } else {
-                    panel.style.display = "block";
-                }
-            });
-        }
-
-    </script>
-
-
-
 </body>
