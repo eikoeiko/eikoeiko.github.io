@@ -44,4 +44,12 @@ img {
 .box{
     font-size: 14px;
     font-family: "Roboto Mono";
+    margin-left: 700px;
+}
+
+.contact-box{
+    position: relative;
+    font-size: 14px;
+    font-family: "Roboto Mono";
+    margin-left: 700px;
 }
