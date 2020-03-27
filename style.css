@@ -1,55 +1,11 @@
 
 body {
-    font-family: "Helvetica Neue", sans-serif;
-    overflow: hidden;
+width: 500px;
+background-image: url('resources/img.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 700px;
+overflow: hidden;
 }
 
-.menu{
-    position: relative;
-    font-weight: 500;
-    font-size: 30px;
-    left: 15%;
-    margin-top: 200px;
-    letter-spacing: 3px;
-
-}
-
-li{
-    list-style: none;
-}
-
-
- a {
-    text-decoration: none;
-    color: black;
-}
-
-.contactbox{
-    position: relative;
-    margin: -50px 0px 0px 600px;
-}
-
-
-.contactbox li {
-    list-style: none;
-    padding: 6px;
-}
-
-img {
-    position: relative;
-    width: 700px;
-    margin-left: 600px;
-    margin-top: -300px;
-}
-.box{
-    font-size: 14px;
-    font-family: "Roboto Mono";
-    margin-left: 700px;
-}
-
-.contact-box{
-    position: relative;
-    font-size: 14px;
-    font-family: "Roboto Mono";
-    margin-left: 700px;
-}
