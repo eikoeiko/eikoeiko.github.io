@@ -11,6 +11,36 @@
 
     <!--  Google Analytics, mobile redirect -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122918799-2"></script>
+    
+    <script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("img").src = images[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 3000);
+          }
+
+          var images = [], x = -1;
+          images[0] = "img0.jpg";
+          images[1] = "img1.jpg";
+          images[2] = "img2.jpg";
+          images[3] = "img3.jpg";
+          images[4] = "img4.jpg";
+          images[5] = "img5.jpg";
+          images[6] = "img6.jpg";
+          images[7] = "img7.jpg";
+          images[8] = "img8.jpg";
+          images[9] = "img9.jpg";
+          images[10] = "img10.jpg";
+          images[11] = "img11.jpg";
+      </script>
    
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -31,6 +61,9 @@
 
 
 <body>
+    
+    
+    <img>
     
     <a href=https://www.instagram.com/eiko2300> eiko.olykan@gmail.com> </a>
 
